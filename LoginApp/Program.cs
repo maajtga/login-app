@@ -14,6 +14,7 @@ namespace LoginApp
 
             // Sign Up or Sign In
             Console.Write("Type /sup to sign up or type /sin to sign in: ");
+            Console.ReadLine();
 
             // Wait for user Input before closing
             Console.ReadKey();
