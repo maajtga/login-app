@@ -5,7 +5,7 @@ namespace LoginApp
     class Program
     {
        
-        public string userinput;
+        public string userinput = "";
         
         static void Main(string[] args)
         {
@@ -14,8 +14,22 @@ namespace LoginApp
 
             // Sign Up or Sign In
             Console.Write("Type /sup to sign up or type /sin to sign in: ");
-            Console.ReadLine();
+            string userinput = Console.ReadLine();
 
+            // Check option
+            if (userinput == "/sup")
+            {
+                Login.SignUp();
+            }
+            else if (userinput == "/sin")
+            {
+                Login.SignIn();
+            }
+            else
+            {
+                return;
+            }
+            
             // Wait for user Input before closing
             Console.ReadKey();
         }
@@ -23,12 +37,12 @@ namespace LoginApp
 
     class Login
     {
-        static void SignUp()
+        public static void SignUp()
         {
 
         }
 
-        static void SignIn()
+        public static void SignIn()
         {
 
         }
