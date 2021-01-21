@@ -6,7 +6,15 @@ namespace LoginApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Executable Title
+            Console.Title = "LoginApp";
+            
+            // User Prompt to enter Username
+            Console.WriteLine("Please enter your Username:");
+
+
+            // Wait for user Input before closing
+            Console.ReadKey();
         }
     }
 }
