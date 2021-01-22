@@ -99,7 +99,7 @@ namespace LoginApp
                     // Check if it matches
                     if (userimput == password)
                     {
-                        Console.WriteLine("Congradulations, you are logged in as" + username);
+                        Console.WriteLine("Congradulations, you are logged in as " + username);
                     }
                     else
                     {
