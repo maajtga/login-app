@@ -51,6 +51,7 @@ namespace LoginApp
             // Check if password matches up correctly
             if (passWord == userinput)      
             {
+            
             // Create New Login File as .txt  
             StreamWriter sw = new StreamWriter("loginfile/logincredentials.txt");
 
@@ -58,6 +59,10 @@ namespace LoginApp
             sw.WriteLine(userName);
             sw.WriteLine(passWord);
             sw.Close(); 
+            }
+            else
+            {
+                Console.WriteLine("The two passwords do not match");
             }
         
         }
