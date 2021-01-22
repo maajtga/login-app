@@ -77,7 +77,8 @@ namespace LoginApp
             // Check if file loginfile exists
             if (File.Exists("loginfile/logincredentials.txt"))
             {
-                StreamReader sr = new StreamReader("loginfile/logincredentails.txt");
+                StreamReader sr = new StreamReader("loginfile/logincredentials.txt");
+                
                 // Get username
                 string username = sr.ReadLine();
 
