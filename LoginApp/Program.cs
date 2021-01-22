@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace LoginApp
 {
@@ -39,7 +40,26 @@ namespace LoginApp
     {
         public static void SignUp()
         {
-            Console.WriteLine("Nothing yet...");
+            // Ask for new Username and Password
+            Console.Write("Enter a new Username: ");
+            string userName = Console.ReadLine();
+            Console.Write("Please Enter Your new Password: ");
+            string passWord = Console.ReadLine();
+            Console.Write("Please Renter your Password: ");
+            string userinput = Console.ReadLine();
+            
+            // Check if password matches up correctly
+            if (passWord == userinput)      
+            {
+            // Create New Login File as .txt  
+            StreamWriter sw = new StreamWriter("loginfile/logincredentials.txt");
+
+            // Write to the file
+            sw.WriteLine(userName);
+            sw.WriteLine(passWord);
+            sw.Close(); 
+            }
+        
         }
 
         public static void SignIn()
