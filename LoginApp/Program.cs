@@ -39,12 +39,12 @@ namespace LoginApp
     {
         public static void SignUp()
         {
-
+            Console.WriteLine("Nothing yet...");
         }
 
         public static void SignIn()
         {
-
+            Console.WriteLine("Nothing yet...");
         }
     }
 }
