@@ -5,7 +5,7 @@ namespace LoginApp
 {
     class Program
     {
-       
+        // Simple userinput
         public string userinput = "";
         
         public static void Main()
@@ -26,9 +26,10 @@ namespace LoginApp
             {
                 Login.SignIn();
             }
-            else
+            else  
             {
-                return;
+                Console.WriteLine("Invalid command");
+                Main();
             }
             
             // Wait for user Input before closing
