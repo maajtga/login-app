@@ -8,7 +8,7 @@ namespace LoginApp
        
         public string userinput = "";
         
-        static void Main(string[] args)
+        public static void Main()
         {
             // Executable Title
             Console.Title = "LoginApp";
@@ -60,6 +60,10 @@ namespace LoginApp
             sw.WriteLine(passWord);
             sw.Close(); 
             
+            //Thank for creating an account and move back to login
+            Console.WriteLine("Thank you for signing up!");
+            Program.Main();
+
             }
             else
             {
