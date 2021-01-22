@@ -74,7 +74,9 @@ namespace LoginApp
 
         public static void SignIn()
         {
-            Console.WriteLine("Nothing yet...");
+            // Check if file loginfile exists
+            File.Exists("loginfile/logincredentials");
+            
         }
     }
 }
