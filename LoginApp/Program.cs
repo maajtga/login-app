@@ -75,8 +75,51 @@ namespace LoginApp
         public static void SignIn()
         {
             // Check if file loginfile exists
-            File.Exists("loginfile/logincredentials");
-            
+            if (File.Exists("loginfile/logincredentials.txt"))
+            {
+                StreamReader sr = new StreamReader("loginfile/logincredentails.txt");
+                // Get username
+                string username = sr.ReadLine();
+
+                // Enter Username
+                Console.Write("Enter your Username: ");
+                string userinput = Console.ReadLine();
+
+                // Check if it matches
+                if (username == userinput)
+                {
+                    //Get password
+                    string password = sr.ReadLine();
+
+                    // Enter password
+                    Console.Write("Please enter your password: ");
+                    string userimput = Console.ReadLine();
+
+                    // Check if it matches
+                    if (userimput == password)
+                    {
+                        Console.WriteLine("Congradulations, you are logged in as" + username);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Wrong Password");
+                        Program.Main();
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Wrong Password");
+                    Program.Main();
+                }
+
+            }
+            // Go back to main 
+            else
+            {
+                Console.WriteLine("Please Sign Up");
+                Program.Main();
+            }
+
         }
     }
 }
