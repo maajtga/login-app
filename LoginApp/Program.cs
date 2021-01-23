@@ -110,7 +110,7 @@ namespace LoginApp
                 }
                 else
                 {
-                    Console.WriteLine("Wrong Password");
+                    Console.WriteLine("Wrong Username");
                     Program.Main();
                 }
 
