@@ -121,7 +121,6 @@ namespace LoginApp
                 Console.WriteLine("Please Sign Up");
                 Program.Main();
             }
-
         }
     }
 }
