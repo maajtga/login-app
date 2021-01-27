@@ -11,3 +11,16 @@ C:\Users\Maaj\Desktop\Programing\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\L
 C:\Users\Maaj\Desktop\Programing\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.dll
 C:\Users\Maaj\Desktop\Programing\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.pdb
 C:\Users\Maaj\Desktop\Programing\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.genruntimeconfig.cache
+C:\Programming\C#\login-app\LoginApp\bin\Debug\netcoreapp3.1\LoginApp.exe
+C:\Programming\C#\login-app\LoginApp\bin\Debug\netcoreapp3.1\LoginApp.deps.json
+C:\Programming\C#\login-app\LoginApp\bin\Debug\netcoreapp3.1\LoginApp.runtimeconfig.json
+C:\Programming\C#\login-app\LoginApp\bin\Debug\netcoreapp3.1\LoginApp.runtimeconfig.dev.json
+C:\Programming\C#\login-app\LoginApp\bin\Debug\netcoreapp3.1\LoginApp.dll
+C:\Programming\C#\login-app\LoginApp\bin\Debug\netcoreapp3.1\LoginApp.pdb
+C:\Programming\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.csprojAssemblyReference.cache
+C:\Programming\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.AssemblyInfoInputs.cache
+C:\Programming\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.AssemblyInfo.cs
+C:\Programming\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.csproj.CoreCompileInputs.cache
+C:\Programming\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.dll
+C:\Programming\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.pdb
+C:\Programming\C#\login-app\LoginApp\obj\Debug\netcoreapp3.1\LoginApp.genruntimeconfig.cache

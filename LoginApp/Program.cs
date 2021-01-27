@@ -20,7 +20,7 @@ namespace LoginApp
             // Check option
             if (userinput == "/sup")
             {
-                Login.SignUp();
+                SignUp.Signup();
             }
             else if (userinput == "/sin")
             {
@@ -39,40 +39,6 @@ namespace LoginApp
 
     class Login
     {
-        public static void SignUp()
-        {
-            // Ask for new Username and Password
-            Console.Write("Enter a new Username: ");
-            string userName = Console.ReadLine();
-            Console.Write("Please Enter Your new Password: ");
-            string passWord = Console.ReadLine();
-            Console.Write("Please Renter your Password: ");
-            string userinput = Console.ReadLine();
-            
-            // Check if password matches up correctly
-            if (passWord == userinput)      
-            {
-            
-            // Create New Login File as .txt  
-            StreamWriter sw = new StreamWriter("loginfile/logincredentials.txt");
-
-            // Write to the file
-            sw.WriteLine(userName);
-            sw.WriteLine(passWord);
-            sw.Close(); 
-            
-            //Thank for creating an account and move back to login
-            Console.WriteLine("Thank you for signing up!");
-            Program.Main();
-
-            }
-            else
-            {
-                Console.WriteLine("The two passwords do not match");
-            }
-        
-        }
-
         public static void SignIn()
         {
             // Check if file loginfile exists
@@ -121,6 +87,44 @@ namespace LoginApp
                 Console.WriteLine("Please Sign Up");
                 Program.Main();
             }
+        }
+    }
+
+    class SignUp
+    {
+        
+        public static void Signup()
+        {
+            // Ask for new Username and Password
+            Console.Write("Enter a new Username: ");
+            string userName = Console.ReadLine();
+            Console.Write("Please Enter Your new Password: ");
+            string passWord = Console.ReadLine();
+            Console.Write("Please Renter your Password: ");
+            string userinput = Console.ReadLine();
+            
+            // Check if password matches up correctly
+            if (passWord == userinput)      
+            {
+            
+            // Create New Login File as .txt  
+            StreamWriter sw = new StreamWriter("loginfile/logincredentials.txt");
+
+            // Write to the file
+            sw.WriteLine(userName);
+            sw.WriteLine(passWord);
+            sw.Close(); 
+            
+            //Thank for creating an account and move back to login
+            Console.WriteLine("Thank you for signing up!");
+            Program.Main();
+
+            }
+            else
+            {
+                Console.WriteLine("The two passwords do not match");
+            }
+        
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Maaj\\Desktop\\Programing\\C#\\login-app\\LoginApp\\LoginApp.csproj": {}
+    "C:\\Programming\\C#\\login-app\\LoginApp\\LoginApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Maaj\\Desktop\\Programing\\C#\\login-app\\LoginApp\\LoginApp.csproj": {
+    "C:\\Programming\\C#\\login-app\\LoginApp\\LoginApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Maaj\\Desktop\\Programing\\C#\\login-app\\LoginApp\\LoginApp.csproj",
+        "projectUniqueName": "C:\\Programming\\C#\\login-app\\LoginApp\\LoginApp.csproj",
         "projectName": "LoginApp",
-        "projectPath": "C:\\Users\\Maaj\\Desktop\\Programing\\C#\\login-app\\LoginApp\\LoginApp.csproj",
+        "projectPath": "C:\\Programming\\C#\\login-app\\LoginApp\\LoginApp.csproj",
         "packagesPath": "C:\\Users\\Maaj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Maaj\\Desktop\\Programing\\C#\\login-app\\LoginApp\\obj\\",
+        "outputPath": "C:\\Programming\\C#\\login-app\\LoginApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Maaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
